@@ -1,10 +1,15 @@
+import './App.css';
 import React from 'react';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import TopBar from './TopBar';
 
 const App = () => {
     return (
-        <div>
+        <>
+            <CssBaseline />
+            <TopBar />
             SAY panel App
-        </div>
+        </>
     );
 }
 
