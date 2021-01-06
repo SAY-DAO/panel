@@ -6,15 +6,15 @@ import Grid from '@material-ui/core/Grid';
 
 const TopBar = () => {
     return (
-        <AppBar position="static" style={{ backgroundColor: '#F59E39' }}>
-            <Grid container direction='row-reverse' alignItems='center'>
-                <Toolbar>
-                    <Typography variant="h6" className="logo">
-                        SAY
-                    </Typography>
-                </Toolbar>
-            </Grid>
-        </AppBar>
+      <AppBar position="static" style={{ backgroundColor: '#F59E39' }}>
+        <Grid container direction="row-reverse" alignItems="center">
+          <Toolbar>
+            <Typography variant="h6" className="logo">
+              SAY
+            </Typography>
+          </Toolbar>
+        </Grid>
+      </AppBar>
     );
 }
 
