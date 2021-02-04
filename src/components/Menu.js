@@ -9,15 +9,12 @@ import { makeStyles, withStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    borderRadius: 10,
+    color: '#4a4a4a',
+    boxShadow: '4px 4px 10px rgba(0, 0, 0, 0.08)',
     display: 'flex',
     justifyContent: 'right',
     height: '60vh',
-  },
-  paper: {
-    marginRight: theme.spacing(2),
-    marginTop: theme.spacing(2),
-    borderRadius: 8,
-    color: '#4a4a4a',
   },
 }));
 
@@ -33,8 +30,7 @@ const Menu = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-      <Paper className={classes.paper}>
+      <Paper className={classes.root}>
         <MenuList>
           <MenuItem component={Link} to="#">
             <ListItemIcon>
@@ -68,7 +64,6 @@ const Menu = () => {
           </MenuItem>
         </MenuList>
       </Paper>
-    </div>
   );
 };
 
