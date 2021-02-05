@@ -6,21 +6,20 @@ import Grid from '@material-ui/core/Grid';
 
 import TopBar from './TopBar';
 import Menu from './Menu';
-import ChildCard from './Child/ChildCard';
+import Child from './Child';
 
 const App = () => {
     return (
       <BrowserRouter>
         <CssBaseline />
         <TopBar />
-        <div style={{ padding: '20px' }}>
-          <Grid container direction='row-reverse' spacing={5}>
+        <div style={{ padding: 20 }}>
+          <Grid container direction="row-reverse" spacing={5}>
             <Grid item>
               <Menu />
             </Grid>
-            <Grid item>
-              SAY panel App
-              <ChildCard />
+            <Grid item container direction="row-reverse" style={{ flex: 1 }}>
+              <Child />
             </Grid>
           </Grid>
         </div>
