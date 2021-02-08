@@ -7,7 +7,7 @@ import ListItemIcon from '@material-ui/core/ListItemIcon';
 import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles({
   root: {
     borderRadius: 10,
     color: '#4a4a4a',
@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'right',
     height: '60vh',
   },
-}));
+});
 
 const MenuItem = withStyles({
   root: {

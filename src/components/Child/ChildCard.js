@@ -11,8 +11,6 @@ const useStyles = makeStyles({
   root: {
     width: 180,
     height: 270,
-    boxShadow: '4px 4px 10px rgba(0, 0, 0, 0.08)',
-    borderRadius: 10,
   },
   cardActionArea: {
     height: '100%',
@@ -34,7 +32,7 @@ const ChildCard = () => {
         <CardMedia
           className={classes.media}
           image="https://sayapp.company/files/1-child/1-avatar_0010010001.png"
-          title="logo192.png"
+          title="Setareh"
         />
         <CardContent>
           <Typography variant="h6" align="center" paragraph>
