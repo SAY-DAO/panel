@@ -17,12 +17,20 @@ const useStyles = makeStyles({
     flexDirection: 'row-reverse',
     alignItems: 'center',
     justifyContent: 'space-around',
+    flexWrap: 'wrap',
   },
   media: {
     width: 100,
     height: 100,
     borderRadius: '50%',
     margin: 20,
+  },
+});
+
+const audioStyle = makeStyles({
+  root: {
+    backgroundColor: 'rgba(0, 0, 0, 0.05)',
+    boxShadow: 'none',
   },
 });
 
@@ -66,6 +74,7 @@ const ChildPage = () => {
               <AudioPlayer
                 src="https://sayapp.company/files/1-child/1-voice_0010010001.mp3"
                 download
+                useStyles={audioStyle}
               />
             </Box>
           </Card>
