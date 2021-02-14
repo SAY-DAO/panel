@@ -13,7 +13,7 @@ const theme = createMuiTheme({
   overrides: {
     MuiCard: {
       root: {
-        boxShadow: '4px 4px 10px rgba(0, 0, 0, 0.08)',
+        boxShadow: '4px 4px 20px rgba(196, 196, 196, 0.73)',
         borderRadius: 10,
       },
     },
