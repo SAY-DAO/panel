@@ -11,7 +11,7 @@ import DefaultButton from './DefaultButton';
 
 const useStyles = makeStyles({
   root: {
-    height: '85vh',
+    height: '80vh',
     borderLeft: '1px solid rgba(87, 84, 84, 0.42)',
   },
 });
