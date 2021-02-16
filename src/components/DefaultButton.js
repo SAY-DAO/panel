@@ -6,12 +6,12 @@ const Button = withStyles({
   root: {
     backgroundColor: '#fcb664',
     color: '#ffffff',
+    fontSize: 18,
     '&:hover': {
       backgroundColor: '#d78537',
     },
-    width: 100,
-    height: 53,
-    borderRadius: 10,
+    width: 157,
+    height: 83,
   },
 })(MuiButton);
 

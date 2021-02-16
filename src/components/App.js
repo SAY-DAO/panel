@@ -17,6 +17,12 @@ const theme = createMuiTheme({
         borderRadius: 10,
       },
     },
+    MuiButton: {
+      root: {
+        boxShadow: '4px 4px 20px rgba(196, 196, 196, 0.73)',
+        borderRadius: 10,
+      },
+    },
   },
 });
 
@@ -26,8 +32,8 @@ const App = () => {
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <TopBar />
-          <div style={{ padding: 20 }}>
-            <Grid container direction="row-reverse" spacing={5}>
+          <div style={{ padding: 8 }}>
+            <Grid container direction="row-reverse" spacing={2}>
               <Grid item>
                 <Menu />
               </Grid>
