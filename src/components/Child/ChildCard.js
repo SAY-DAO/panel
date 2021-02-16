@@ -10,16 +10,18 @@ import Grid from '@material-ui/core/Grid';
 const useStyles = makeStyles({
   root: {
     width: 180,
-    height: 270,
+    height: 275,
   },
   cardActionArea: {
     height: '100%',
   },
   media: {
-    width: 140,
-    height: 140,
-    margin: '0 auto',
+    width: 120,
+    height: 120,
+    margin: '20px auto 10px',
     borderRadius: '50%',
+    boxShadow: '0px 4px 30px rgba(0, 0, 0, 0.25)',
+    backgroundColor: '#f1f1f1',
   },
 });
 
@@ -40,12 +42,10 @@ const ChildCard = () => {
           </Typography>
           <Grid container direction="row-reverse" justify="space-between">
             <Grid item>نیازهای ثبت شده</Grid>
-            <Grid item>:</Grid>
             <Grid item>100</Grid>
           </Grid>
           <Grid container direction="row-reverse" justify="space-between">
             <Grid item>نیازهای انحام شده</Grid>
-            <Grid item>:</Grid>
             <Grid item>0</Grid>
           </Grid>
         </CardContent>
