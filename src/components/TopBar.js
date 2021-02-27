@@ -32,6 +32,7 @@ const TopBar = () => {
           <Box display="flex" m={2}>
             <img
               src="/white-logo.png"
+              alt="SAY-logo"
               className={classes.logo}
             />
           </Box>
