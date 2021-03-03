@@ -19,7 +19,7 @@ const CustomButton = withStyles({
     boxShadow: '0px 4px 30px rgba(0, 0, 0, 0.25)',
     margin: 20,
     '&:hover': {
-      backgroundColor: '#295960',
+      backgroundColor: '#3a9c99',
     },
   },
 })(Button);
