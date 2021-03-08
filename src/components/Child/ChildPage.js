@@ -1,9 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
+
 import MediaSection from './MediaSection';
+import InfoSection from './InfoSection';
 
 const useStyles = makeStyles({
   root: {
@@ -27,10 +27,14 @@ const ChildPage = () => {
         >
           <MediaSection />
         </Grid>
-        <Grid item spacing={2}>
-          <Card>
-            <CardContent></CardContent>
-          </Card>
+        <Grid
+          container
+          item
+          direction="row-reverse"
+          justify="space-between"
+          spacing={2}
+        >
+          <InfoSection />
         </Grid>
       </Grid>
     </div>

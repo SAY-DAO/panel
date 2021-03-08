@@ -32,7 +32,7 @@ const MediaSection = () => {
 
   return (
     <>
-      <Grid item xl={2} lg={2} sm={6} xs={12}>
+      <Grid item xl={2} lg={2} md={3} sm={6} xs={12}>
         <Card className={classes.mediaCard}>
           <CardMedia
             component="img"
@@ -42,7 +42,7 @@ const MediaSection = () => {
           <CardContent>Avatar</CardContent>
         </Card>
       </Grid>
-      <Grid item xl={2} lg={2} sm={6} xs={12}>
+      <Grid item xl={2} lg={2} md={3} sm={6} xs={12}>
         <Card className={classes.mediaCard}>
           <CardMedia
             component="img"
@@ -52,7 +52,7 @@ const MediaSection = () => {
           <CardContent>Slept Avatar</CardContent>
         </Card>
       </Grid>
-      <Grid item xl={8} lg={8} sm={12} xs={12}>
+      <Grid item xl={8} lg={8} md={6} sm={12} xs={12}>
         <Card className={classes.mediaCard}>
           <AudioPlayer
             src="https://sayapp.company/files/1-child/1-voice_0010010001.mp3"
