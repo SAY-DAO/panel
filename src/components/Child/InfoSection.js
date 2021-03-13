@@ -6,9 +6,6 @@ import { makeStyles, withStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
-  root: {
-    fontSize: 18,
-  },
   infoCard: {
     height: 305,
   },
@@ -17,7 +14,7 @@ const useStyles = makeStyles({
   },
 });
 
-const Title = withStyles({
+export const Title = withStyles({
   root: {
     color: '#C4C4C4',
     fontSize: 14,
@@ -35,7 +32,7 @@ const InfoSection = () => {
 
   return (
     <>
-      <Grid item xs={12} md={4} lg={3} className={classes.root}>
+      <Grid item xs={12} md={4} lg={3}>
         <Card className={`${classes.infoCard} ${classes.basicCard}`}>
           <CardContent>
             <Title variant="h6">کد کودک</Title>

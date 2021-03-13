@@ -4,6 +4,7 @@ import Grid from '@material-ui/core/Grid';
 
 import MediaSection from './MediaSection';
 import InfoSection from './InfoSection';
+import StorySection from './StorySection';
 
 const useStyles = makeStyles({
   root: {
@@ -35,6 +36,15 @@ const ChildPage = () => {
           spacing={2}
         >
           <InfoSection />
+        </Grid>
+        <Grid
+          container
+          item
+          direction="row-reverse"
+          justify="space-between"
+          spacing={2}
+        >
+          <StorySection />
         </Grid>
       </Grid>
     </div>
