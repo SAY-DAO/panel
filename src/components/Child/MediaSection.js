@@ -13,7 +13,7 @@ const useStyles = makeStyles({
     alignItems: 'center',
     justifyContent: 'space-between',
     textAlign: 'center',
-    height: 190,
+    height: 206,
   },
 });
 
