@@ -10,14 +10,21 @@ const Button = withStyles({
     '&:hover': {
       backgroundColor: '#d78537',
     },
+  },
+  sizeSmall: {
+    width: 180,
+    height: 39,
+    borderRadius: 5,
+  },
+  sizeLarge: {
     width: 157,
     height: 83,
   },
 })(MuiButton);
 
-const DefaultButton = ({ text }) => {
+const DefaultButton = ({ text, size }) => {
   return (
-    <Button size="large" disableFocusRipple>
+    <Button size={size} disableFocusRipple>
       {text}
     </Button>
   );

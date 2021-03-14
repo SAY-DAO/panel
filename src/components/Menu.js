@@ -33,7 +33,7 @@ const Menu = () => {
       display="flex"
       flexDirection="column"
       justifyContent="space-between"
-      alignItems='center'
+      alignItems="center"
       px={1}
       className={classes.root}
     >
@@ -59,7 +59,7 @@ const Menu = () => {
           <Typography>تنظیمات</Typography>
         </MenuItem>
       </MenuList>
-      <DefaultButton text="اعلانات" />
+      <DefaultButton text="اعلانات" size="large" />
     </Box>
   );
 };
