@@ -10,6 +10,15 @@ import Menu from './Menu';
 import Child from './Child';
 
 const theme = createMuiTheme({
+  typography: {
+    h1: {
+      fontSize: 24,
+      fontWeight: 'bold',
+    },
+    h2: {
+      fontSize: 24,
+    },
+  },
   overrides: {
     MuiCard: {
       root: {

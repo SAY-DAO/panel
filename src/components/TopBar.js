@@ -36,7 +36,7 @@ const TopBar = () => {
               className={classes.logo}
             />
           </Box>
-          <Typography>SAY PANEL</Typography>
+          <Typography variant="h1">SAY PANEL</Typography>
         </Toolbar>
       </AppBar>
     </Slide>
